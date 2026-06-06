@@ -66,7 +66,6 @@ class AI(commands.Cog):
         return None, last_error
 
     @commands.command(name='debug_models', hidden=True)
-    @commands.is_owner()
     async def debug_models(self, ctx):
         """Diagnostic command to list all available models for this API key."""
         if not self.client:
