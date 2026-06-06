@@ -18,54 +18,67 @@ class Tracking(commands.Cog):
                       dino_name TEXT,
                       custom_name TEXT,
                       current_hp INTEGER,
-                      max_hp INTEGER)''')
+                      max_hp INTEGER,
+                      status TEXT)''')
         conn.commit()
         conn.close()
 
-    @commands.command(name='tame')
-    async def tame_dino(self, ctx, dino_type: str, custom_name: str):
-        """Tames a dinosaur and adds it to your companions."""
-        # Find the dino type to get max HP
+    @commands.command(name='transfer', aliases=['tame'])
+    async def transfer_consciousness(self, ctx, dino_type: str, custom_name: str):
+        """Transfers your consciousness into a juvenile dinosaur."""
         from cogs.lookup import Lookup
         lookup_cog = self.bot.get_cog('Lookup')
         if not lookup_cog:
-            await ctx.send("Lookup system not available.")
+            await ctx.send("Expedition systems are offline.")
             return
 
         dino = next((d for d in lookup_cog.dinosaurs if d['name'].lower() == dino_type.lower()), None)
         if not dino:
-             # Try fuzzy match
             dino = next((d for d in lookup_cog.dinosaurs if dino_type.lower() in d['name'].lower()), None)
 
         if not dino:
-            await ctx.send(f"Unknown dinosaur type: {dino_type}")
+            await ctx.send(f"The Year 2148 archives have no record of a '{dino_type}'.")
             return
 
         conn = sqlite3.connect(self.db_path)
         c = conn.cursor()
-        c.execute("INSERT INTO companions (user_id, dino_name, custom_name, current_hp, max_hp) VALUES (?, ?, ?, ?, ?)",
-                  (ctx.author.id, dino['name'], custom_name, dino['hp'], dino['hp']) )
+        c.execute("INSERT INTO companions (user_id, dino_name, custom_name, current_hp, max_hp, status) VALUES (?, ?, ?, ?, ?, ?)",
+                  (ctx.author.id, dino['name'], custom_name, dino['hp'], dino['hp'], "Transferred Consciousness") )
         conn.commit()
         conn.close()
 
-        await ctx.send(f"You have tamed a {dino['name']} named **{custom_name}**!")
+        await ctx.send(f"**CONSCIOUSNESS LINK ESTABLISHED.** You have successfully merged with a juvenile {dino['name']}. You are now known as **{custom_name}**.")
 
-    @commands.command(name='companions')
-    async def list_companions(self, ctx):
-        """Lists your tamed dinosaurs."""
+    @commands.command(name='survive')
+    async def survive_human(self, ctx, name: str):
+        """Register as a human survivor in the prehistoric world."""
         conn = sqlite3.connect(self.db_path)
         c = conn.cursor()
-        c.execute("SELECT id, dino_name, custom_name, current_hp, max_hp FROM companions WHERE user_id = ?", (ctx.author.id,))
+        # Humans start with standard stats (e.g., 10 HP)
+        c.execute("INSERT INTO companions (user_id, dino_name, custom_name, current_hp, max_hp, status) VALUES (?, ?, ?, ?, ?, ?)",
+                  (ctx.author.id, "Human", name, 10, 10, "Human Survivor") )
+        conn.commit()
+        conn.close()
+
+        await ctx.send(f"**LOGGING EXPEDITION DATA.** You have arrived in the Year 2148 past as a human named **{name}**. Good luck surviving the jungle.")
+
+    @commands.command(name='companions', aliases=['status'])
+    async def list_companions(self, ctx):
+        """Lists your active identities in the Year 2148."""
+        conn = sqlite3.connect(self.db_path)
+        c = conn.cursor()
+        c.execute("SELECT id, dino_name, custom_name, current_hp, max_hp, status FROM companions WHERE user_id = ?", (ctx.author.id,))
         rows = c.fetchall()
         conn.close()
 
         if not rows:
-            await ctx.send("You don't have any companions yet. Use `!tame <type> <name>` to get one!")
+            await ctx.send("You are currently in the Year 2148. Use `!transfer` or `!survive` to begin your journey.")
             return
 
-        embed = discord.Embed(title=f"{ctx.author.name}'s Companions", color=discord.Color.blue())
+        embed = discord.Embed(title=f"Expedition Log: {ctx.author.name}", color=discord.Color.blue())
         for row in rows:
-            embed.add_field(name=f"{row[2]} ({row[1]})", value=f"HP: {row[3]}/{row[4]} [ID: {row[0]}]", inline=False)
+            status = row[5] if len(row) > 5 else "Active"
+            embed.add_field(name=f"{row[2]} ({row[1]})", value=f"**Status:** {status}\n**HP:** {row[3]}/{row[4]} [ID: {row[0]}]", inline=False)
         
         await ctx.send(embed=embed)
 
