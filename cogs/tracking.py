@@ -109,8 +109,9 @@ class Tracking(commands.Cog):
 
         if leveled_up:
             growth_stage = "Juvenile"
-            if new_level >= 10: growth_stage = "Adult"
-            elif new_level >= 5: growth_stage = "Young"
+            if new_level >= 13: growth_stage = "Adult"
+            elif new_level >= 9: growth_stage = "Sub-Adult"
+            elif new_level >= 5: growth_stage = "Adolescent"
             
             await ctx.send(f"🎊 **LEVEL UP!** **{custom_name}** has reached **Level {new_level}**! It is now a **{growth_stage} {dino_name}**. Max HP increased to {new_max_hp}!")
         else:
@@ -137,8 +138,15 @@ class Tracking(commands.Cog):
             xp_needed = level * 100
             
             growth_stage = "Juvenile"
-            if level >= 10: growth_stage = "Adult"
-            elif level >= 5: growth_stage = "Young"
+            if row[1] == "Human":
+                if level >= 13: growth_stage = "Elite"
+                elif level >= 9: growth_stage = "Veteran"
+                elif level >= 5: growth_stage = "Advanced"
+                else: growth_stage = "Beginner"
+            else:
+                if level >= 13: growth_stage = "Adult"
+                elif level >= 9: growth_stage = "Sub-Adult"
+                elif level >= 5: growth_stage = "Adolescent"
 
             embed.add_field(
                 name=f"{row[2]} (Lvl {level} {growth_stage} {row[1]})", 

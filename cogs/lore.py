@@ -5,29 +5,29 @@ class Lore(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.story = (
-            "**THE YEAR 2148**\n"
-            "Humanity achieved what generations believed was impossible: **Time Travel.**\n\n"
-            "For decades, scientists experimented with sending information through time. Eventually, they succeeded in "
-            "sending living consciousnesses into the distant past—over 65 million years ago, when dinosaurs ruled the Earth.\n\n"
-            "**The Mission:** Observe. Study. Learn.\n"
-            "But humans did what humans always do: they immediately started using it for their own purposes.\n\n"
-            "**The Discovery:** Adult dinosaur brains were too developed to safely accept a human consciousness. "
-            "However, **Juvenile dinosaurs** were different. Their developing brains could successfully merge with a human mind.\n\n"
-            "**The Choice:**\n"
-            "- **The Survivors:** Some volunteers chose to remain human, arriving with nothing but primitive tools and their determination. "
-            "They built camps, hunted, and became legends among other survivors.\n"
-            "- **The Transferred:** Others abandoned their human bodies entirely. Their consciousnesses were transferred into "
-            "juvenile dinosaurs, allowing them to live as the creatures they studied. Some became swift raptors; others, "
-            "towering Triceratops. A few dream of becoming the apex predator—the Tyrannosaurus Rex.\n\n"
-            "**A New Society:** Humans fight to survive. Dinosaurs fight to grow. Both compete for territory, resources, and glory. "
-            "Some dinosaurs remember being human. Others forget the future they came from entirely."
+            "**DUNGEONS & DINOSAURS - CORE RULES**\n\n"
+            "Dungeons & Dinosaurs is a medieval fantasy roleplaying world where players may choose to play as either a **Human** or a **Dinosaur**. Both paths offer unique challenges, progression systems, and playstyles.\n\n"
+            "**Dinosaur Players:**\n"
+            "Players who choose to play as a dinosaur begin life as a **Juvenile** and must grow naturally through leveling.\n"
+            "- **Levels 1-4: Juvenile** (Small size, reduced stats)\n"
+            "- **Levels 5-8: Adolescent** (Increased size, improved combat)\n"
+            "- **Levels 9-12: Sub-Adult** (Near full size, traits become pronounced)\n"
+            "- **Levels 13-20: Adult** (Fully grown, maximum potential unlocked)\n\n"
+            "**Human Players:**\n"
+            "Humans begin as inexperienced adventurers and gain stronger equipment and abilities as they level.\n"
+            "- **Levels 1-4: Beginner** (Basic weapons/armor)\n"
+            "- **Levels 5-8: Advanced** (Improved equipment, professions)\n"
+            "- **Levels 9-12: Veteran** (Veteran status, strong armor/weapons)\n"
+            "- **Levels 13-20: Elite** (Elite warriors, hunters, or leaders)\n\n"
+            "**Gaining Experience:**\n"
+            "All players start at Level 1 and earn XP through roleplay, exploration, combat, quests, and survival."
         )
 
-    @commands.command(name='lore')
+    @commands.command(name='lore', aliases=['rules'])
     async def show_lore(self, ctx):
-        """Displays the background story of the year 2148."""
+        """Displays the background story and core rules."""
         embed = discord.Embed(
-            title="Prehistoric Expedition: Project 2148",
+            title="Dungeons & Dinosaurs - Prehistoric Expedition",
             description=self.story,
             color=discord.Color.dark_red()
         )
