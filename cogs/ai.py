@@ -90,6 +90,7 @@ class AI(commands.Cog):
         except Exception as e:
             await ctx.send(f"Error listing models: `{e}`")
 
+    @commands.command(name='ask', aliases=['rule', 'dm'])
     async def ask_ai(self, ctx, *, question: str):
         """Asks the AI a question, with automatic fallback if quotas are hit."""
         if not self.client:
