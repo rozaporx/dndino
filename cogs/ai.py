@@ -42,31 +42,45 @@ class AI(commands.Cog):
             self.client = None
 
     async def get_working_model(self):
-        """Finds the first working model from the available list."""
+        """Dynamically finds the best working model for this API key."""
         if self.model_id:
             return self.model_id, None
         
-        last_error = "Unknown error"
-        for model_name in self.available_models:
-            try:
-                # Test the model with a tiny prompt
-                await self.client.aio.models.generate_content(
-                    model=model_name,
-                    contents="test"
-                )
-                print(f"Successfully connected to AI model: {model_name}")
-                self.model_id = model_name
-                return self.model_id, None
-            except Exception as e:
-                error_str = str(e)
-                if "429" in error_str:
-                    print(f"Model {model_name} is currently rate limited.")
-                else:
-                    print(f"Failed to connect to {model_name}: {error_str}")
-                last_error = error_str
-                continue
-        
-        return None, last_error
+        try:
+            # Discover models available to this specific key
+            discovered_models = []
+            for model in self.client.models.list():
+                # Filter for models that support text generation (gemini models)
+                if "gemini" in model.name.lower():
+                    # Strip "models/" prefix if present, SDK usually handles it but we want the clean name
+                    clean_name = model.name.replace("models/", "")
+                    discovered_models.append(clean_name)
+            
+            if not discovered_models:
+                return None, "No Gemini models discovered for this API key."
+
+            # Prioritize models: Pro first, then Flash, then others
+            discovered_models.sort(key=lambda x: ("pro" in x, "flash" in x), reverse=True)
+            
+            last_error = "Unknown discovery error"
+            for model_name in discovered_models:
+                try:
+                    # Test with a tiny prompt
+                    await self.client.aio.models.generate_content(
+                        model=model_name,
+                        contents="test"
+                    )
+                    print(f"Successfully connected to discovered model: {model_name}")
+                    self.model_id = model_name
+                    return self.model_id, None
+                except Exception as e:
+                    last_error = str(e)
+                    continue
+            
+            return None, last_error
+
+        except Exception as e:
+            return None, f"Model discovery failed: {e}"
 
     @commands.command(name='ask', aliases=['rule', 'dm'])
     async def ask_ai(self, ctx, *, question: str):
