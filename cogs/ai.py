@@ -6,18 +6,18 @@ from discord.ext import commands
 class AI(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
+        self.model_id = None
+        self.available_models = [
+            "gemini-2.0-flash", 
+            "gemini-flash-latest", 
+            "gemini-1.5-flash", 
+            "gemini-pro-latest",
+            "gemini-1.5-pro"
+        ]
         # Configure the new Gemini client
         api_key = os.getenv("GEMINI_API_KEY")
         if api_key:
             self.client = genai.Client(api_key=api_key)
-            # We will try the most likely working models based on current availability
-            self.available_models = [
-                "gemini-2.0-flash", 
-                "gemini-flash-latest", 
-                "gemini-1.5-flash", 
-                "gemini-pro-latest",
-                "gemini-1.5-pro"
-            ]
             # This is the "Persona" for your bot, updated with the 2148 Lore
             self.system_prompt = (
                 "You are the AI Guide for the Year 2148 Prehistoric Expedition. "
