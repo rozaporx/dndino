@@ -53,7 +53,7 @@ class Lookup(commands.Cog):
         import urllib.parse
         prompt = f"photorealistic dinosaur, {dino['name']}, prehistoric jungle background, high detail, 8k"
         encoded_prompt = urllib.parse.quote(prompt)
-        image_url = f"https://pollinations.ai/p/{encoded_prompt}?width=1024&height=1024&seed={random.randint(1, 100000)}&nologo=true"
+        image_url = f"https://pollinations.ai/p/{encoded_prompt}?width=1024&height=1024&seed={random.randint(1, 100000)}&nologo=true&enhance=false.png"
         embed.set_image(url=image_url)
 
         embed.add_field(name="Armor Class", value=dino['ac'], inline=True)
