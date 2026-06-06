@@ -124,12 +124,12 @@ class AI(commands.Cog):
             return
 
         async with ctx.typing():
-            # List of models to try in order (High-limit 1.5-flash first to ensure stability)
+            # List of models to try in order (Prioritizing models confirmed WORKING in diagnostics)
             models_to_try = [
-                "gemini-1.5-flash",
                 "gemini-3.5-flash",
-                "gemini-2.5-pro",
                 "gemini-2.5-flash",
+                "gemini-2.5-pro",
+                "gemini-1.5-flash",
                 "gemini-1.5-pro"
             ]
             
