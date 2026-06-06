@@ -75,6 +75,9 @@ class Tracking(commands.Cog):
     async def train_companion(self, ctx, companion_id: int):
         """Trains your companion to gain XP and level up."""
         import random
+        from cogs.lookup import Lookup
+        lookup_cog = self.bot.get_cog('Lookup')
+        
         conn = sqlite3.connect(self.db_path)
         c = conn.cursor()
         c.execute("SELECT dino_name, custom_name, level, xp, max_hp FROM companions WHERE id = ? AND user_id = ?", (companion_id, ctx.author.id))
@@ -86,7 +89,20 @@ class Tracking(commands.Cog):
             return
 
         dino_name, custom_name, level, xp, max_hp = row
-        gain = random.randint(10, 25)
+        
+        # Determine growth multiplier based on Tier
+        multiplier = 1.0
+        if lookup_cog:
+            dino_data = next((d for d in lookup_cog.dinosaurs if d['name'].lower() == dino_name.lower()), None)
+            if dino_data and 'tier' in dino_data:
+                tier = dino_data['tier']
+                # Tier 1 (Tiny): 2.0x, Tier 2: 1.5x, Tier 3: 1.0x, Tier 4: 0.8x, Tier 5: 0.6x, Tier 6: 0.4x
+                multipliers = {1: 2.0, 2: 1.5, 3: 1.0, 4: 0.8, 5: 0.6, 6: 0.4}
+                multiplier = multipliers.get(tier, 1.0)
+
+        gain = int(random.randint(15, 30) * multiplier)
+        if gain < 1: gain = 1 # Minimum 1 XP
+        
         new_xp = xp + gain
         
         # Simple leveling logic: 100 XP per level

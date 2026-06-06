@@ -26,6 +26,7 @@ class AI(commands.Cog):
                 "- ALL players begin at Level 1 and grow through roleplay, exploration, and combat.\n"
                 "- DINOSAURS: Start as Juveniles (Lvl 1-4). Progress to Adolescent (5-8), Sub-Adult (9-12), and Adult (13-20).\n"
                 "- HUMANS: Start as Beginners (Lvl 1-4). Progress to Advanced (5-8), Veteran (9-12), and Elite (13-20).\n"
+                "- SIZE TIERS: Dinosaurs fall into Tiers 1-6 (Tiny to Apex). Lower tiers grow much faster; higher tiers grow much slower but are more powerful.\n"
                 "- Dinosaurs gain XP via quests, combat, survival, and events.\n"
                 "- Humans unlock better gear and skills as they level.\n"
                 "\nYou are also an expert in D&D 5e rules. If a user asks a rules question, answer it accurately. "

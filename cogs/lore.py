@@ -19,6 +19,13 @@ class Lore(commands.Cog):
             "- **Levels 5-8: Advanced** (Improved equipment, professions)\n"
             "- **Levels 9-12: Veteran** (Veteran status, strong armor/weapons)\n"
             "- **Levels 13-20: Elite** (Elite warriors, hunters, or leaders)\n\n"
+            "**🦖 DINOSAUR SIZE TIERS 🦖**\n"
+            "• **Tier 1 - Tiny**: (Compsognathus, Troodon) - Fastest growth.\n"
+            "• **Tier 2 - Small**: (Velociraptor, Oviraptor) - Fast growth.\n"
+            "• **Tier 3 - Medium**: (Deinonychus, Dilophosaurus) - Average growth.\n"
+            "• **Tier 4 - Large**: (Allosaurus, Stegosaurus) - Slow growth.\n"
+            "• **Tier 5 - Huge**: (Triceratops, Spinosaurus) - Very slow growth.\n"
+            "• **Tier 6 - Apex**: (T-Rex, Giganotosaurus) - Slowest growth.\n\n"
             "**Gaining Experience:**\n"
             "All players start at Level 1 and earn XP through roleplay, exploration, combat, quests, and survival."
         )

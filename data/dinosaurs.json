@@ -41,7 +41,8 @@
         "Despite their tiny arms, each arm could lift approximately 450 pounds.",
         "Had excellent binocular vision, possibly better than modern hawks.",
         "New evidence suggests they may have had 'lips' covering their teeth when their mouths were closed."
-      ]
+      ],
+      "tier": 6
     },
     {
       "name": "Triceratops",
@@ -84,7 +85,8 @@
         "Had hundreds of teeth arranged in batteries, which were constantly being replaced as they wore down.",
         "Lived in the same time and place as T-Rex and was likely its primary prey—and primary rival.",
         "Recent studies suggest their horns were used for combat with other Triceratops, not just predators."
-      ]
+      ],
+      "tier": 5
     },
     {
       "name": "Ankylosaurus",
@@ -118,7 +120,8 @@
         "Even its eyelids may have been protected by small plates of bone.",
         "It was one of the last non-avian dinosaurs existing before the K-Pg extinction event.",
         "The armor was actually embedded in the skin, similar to a crocodile's scales but much thicker."
-      ]
+      ],
+      "tier": 5
     },
     {
       "name": "Allosaurus",
@@ -162,7 +165,8 @@
         "May have used its upper jaw like a hatchet to strike prey, relying on speed and sharp teeth rather than pure crushing force.",
         "Was the most common large predator in what is now North America during its time.",
         "Evidence from 'Big Al' fossils shows these dinosaurs lived violent lives, often sustaining multiple broken bones."
-      ]
+      ],
+      "tier": 4
     },
     {
       "name": "Plesiosaurus",
@@ -202,7 +206,8 @@
         "Unlike most reptiles, plesiosaurs likely gave birth to live young in the water rather than laying eggs.",
         "Used its four large flippers to 'fly' through the water, much like modern sea turtles.",
         "The first complete Plesiosaurus skeleton was discovered by Mary Anning in 1823."
-      ]
+      ],
+      "tier": 4
     },
     {
       "name": "Pteranodon",
@@ -242,7 +247,8 @@
         "The large crest on the back of its head acted as a counterweight to its long beak and may have helped with steering.",
         "Had a wingspan of up to 20 feet, yet its body was very light to allow for efficient flight.",
         "Likely spent most of its time flying over the ocean to hunt for fish, similar to a modern albatross."
-      ]
+      ],
+      "tier": 3
     }
   ]
 }
