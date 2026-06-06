@@ -34,6 +34,13 @@
           "name": "Tail",
           "description": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage."
         }
+      ],
+      "historical_facts": [
+        "Lived during the late Cretaceous Period, approximately 68 to 66 million years ago.",
+        "Had one of the strongest bite forces of any terrestrial animal, estimated at 8,000 to 12,800 pounds per square inch.",
+        "Despite their tiny arms, each arm could lift approximately 450 pounds.",
+        "Had excellent binocular vision, possibly better than modern hawks.",
+        "New evidence suggests they may have had 'lips' covering their teeth when their mouths were closed."
       ]
     },
     {
@@ -70,6 +77,13 @@
           "name": "Stomp",
           "description": "Melee Weapon Attack: +9 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10 + 6) bludgeoning damage."
         }
+      ],
+      "historical_facts": [
+        "The name Triceratops literally means 'three-horned face'.",
+        "The large bony frill may have served as protection, display for mating, or even to help regulate body temperature.",
+        "Had hundreds of teeth arranged in batteries, which were constantly being replaced as they wore down.",
+        "Lived in the same time and place as T-Rex and was likely its primary prey—and primary rival.",
+        "Recent studies suggest their horns were used for combat with other Triceratops, not just predators."
       ]
     },
     {
@@ -97,6 +111,13 @@
           "name": "Tail",
           "description": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone."
         }
+      ],
+      "historical_facts": [
+        "Often called a 'living tank' due to its heavy armor plating (osteoderms).",
+        "The tail club was made of two large bony knobs and was strong enough to break a T-Rex's leg.",
+        "Even its eyelids may have been protected by small plates of bone.",
+        "It was one of the last non-avian dinosaurs existing before the K-Pg extinction event.",
+        "The armor was actually embedded in the skin, similar to a crocodile's scales but much thicker."
       ]
     },
     {
@@ -134,6 +155,13 @@
           "name": "Claw",
           "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage."
         }
+      ],
+      "historical_facts": [
+        "Lived during the late Jurassic Period, about 155 to 145 million years ago.",
+        "The name Allosaurus means 'different lizard', referring to its unique concave vertebrae.",
+        "May have used its upper jaw like a hatchet to strike prey, relying on speed and sharp teeth rather than pure crushing force.",
+        "Was the most common large predator in what is now North America during its time.",
+        "Evidence from 'Big Al' fossils shows these dinosaurs lived violent lives, often sustaining multiple broken bones."
       ]
     },
     {
@@ -167,6 +195,13 @@
           "name": "Bite",
           "description": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) piercing damage."
         }
+      ],
+      "historical_facts": [
+        "Technically a marine reptile, not a dinosaur.",
+        "Had a very long, flexible neck with up to 40 vertebrae, allowing it to strike fish with great precision.",
+        "Unlike most reptiles, plesiosaurs likely gave birth to live young in the water rather than laying eggs.",
+        "Used its four large flippers to 'fly' through the water, much like modern sea turtles.",
+        "The first complete Plesiosaurus skeleton was discovered by Mary Anning in 1823."
       ]
     },
     {
@@ -200,6 +235,13 @@
           "name": "Bite",
           "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) piercing damage."
         }
+      ],
+      "historical_facts": [
+        "A pterosaur, not a dinosaur. Pterosaurs were flying reptiles.",
+        "The name Pteranodon means 'wing without teeth'.",
+        "The large crest on the back of its head acted as a counterweight to its long beak and may have helped with steering.",
+        "Had a wingspan of up to 20 feet, yet its body was very light to allow for efficient flight.",
+        "Likely spent most of its time flying over the ocean to hunt for fish, similar to a modern albatross."
       ]
     }
   ]

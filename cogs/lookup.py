@@ -73,6 +73,10 @@ class Lookup(commands.Cog):
         for action in dino['actions']:
             embed.add_field(name=action['name'], value=action['description'], inline=False)
 
+        if 'historical_facts' in dino:
+            facts_str = "\n".join([f"• {fact}" for fact in dino['historical_facts']])
+            embed.add_field(name="Historical Facts", value=facts_str, inline=False)
+
         await ctx.send(embed=embed)
 
     @commands.command(name='dinolist')
