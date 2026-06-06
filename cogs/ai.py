@@ -90,44 +90,57 @@ class AI(commands.Cog):
         except Exception as e:
             await ctx.send(f"Error listing models: `{e}`")
 
-    @commands.command(name='ask', aliases=['rule', 'dm'])
     async def ask_ai(self, ctx, *, question: str):
-        """Asks the AI a question about dinosaurs or D&D."""
+        """Asks the AI a question, with automatic fallback if quotas are hit."""
         if not self.client:
             await ctx.send("AI is not configured. Please add GEMINI_API_KEY to the environment variables.")
             return
 
         async with ctx.typing():
-            try:
-                model, error_msg = await self.get_working_model()
-                if not model:
-                    if "429" in str(error_msg):
-                        await ctx.send("🔋 **Archives Recharging!** The AI has reached its free tier limit for today. Please try again in a little while, or use `!dino` for pre-recorded species.")
-                    else:
-                        await ctx.send(f"❌ **AI Error:** Could not find a supported model.\n**Reason:** `{error_msg}`")
+            # List of models to try in order (High-limit 1.5-flash first to ensure stability)
+            models_to_try = [
+                "gemini-1.5-flash",
+                "gemini-3.5-flash",
+                "gemini-2.5-pro",
+                "gemini-2.5-flash",
+                "gemini-1.5-pro"
+            ]
+            
+            last_error = None
+            for model in models_to_try:
+                try:
+                    # Using the new library's generation method
+                    response = await self.client.aio.models.generate_content(
+                        model=model,
+                        config={"system_instruction": self.system_prompt},
+                        contents=question
+                    )
+                    
+                    answer = response.text
+                    if len(answer) > 1900:
+                        answer = answer[:1900] + "..."
+                    
+                    await ctx.reply(answer)
+                    return # Success!
+
+                except Exception as e:
+                    error_str = str(e)
+                    last_error = error_str
+                    # If it's a quota error (429), try the next model
+                    if "429" in error_str:
+                        continue
+                    # If it's a 404 (not found), try the next model
+                    if "404" in error_str:
+                        continue
+                    # For other errors, report and stop
+                    await ctx.send(f"Sorry, I had a brain freeze! Error: {e}")
                     return
 
-                # Using the new library's generation method
-                response = await self.client.aio.models.generate_content(
-                    model=model,
-                    config={"system_instruction": self.system_prompt},
-                    contents=question
-                )
-                
-                answer = response.text
-                if len(answer) > 1900:
-                    answer = answer[:1900] + "..."
-                
-                await ctx.reply(answer)
-            except Exception as e:
-                error_str = str(e)
-                if "429" in error_str:
-                    if "quota" in error_str.lower():
-                        await ctx.send("🔋 **Archives Recharging!** The AI has hit its daily free quota. It will reset at midnight.")
-                    else:
-                        await ctx.send("⏳ **AI Cooling Down!** You're moving faster than the archives can process. Please wait about 30-60 seconds and try again.")
-                else:
-                    await ctx.send(f"Sorry, I had a brain freeze! Error: {e}")
+            # If we get here, all models failed
+            if last_error and "429" in last_error:
+                await ctx.send("🔋 **Archives Recharging!** All available AI models have hit their limits. Please try again in a little while, or use `!dino` for pre-recorded species.")
+            else:
+                await ctx.send(f"❌ **AI Error:** Could not find a working model.\n**Last Error:** `{last_error}`")
 
     @commands.Cog.listener()
     async def on_message(self, message):
