@@ -43,7 +43,7 @@ class AI(commands.Cog):
         for model_name in self.available_models:
             try:
                 # Test the model with a tiny prompt
-                self.client.models.generate_content(
+                await self.client.aio.models.generate_content(
                     model=model_name,
                     contents="test"
                 )
@@ -72,7 +72,7 @@ class AI(commands.Cog):
                     return
 
                 # Using the new library's generation method
-                response = self.client.models.generate_content(
+                response = await self.client.aio.models.generate_content(
                     model=model,
                     config={"system_instruction": self.system_prompt},
                     contents=question

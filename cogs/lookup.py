@@ -14,16 +14,30 @@ class Lookup(commands.Cog):
             return json.load(f)['dinosaurs']
 
     @commands.command(name='dino')
-    async def dino_lookup(self, ctx, *, name: str):
+    async def dino_lookup(self, ctx, *, name: str = None):
         """Looks up a dinosaur's stats."""
-        dino = next((d for d in self.dinosaurs if d['name'].lower() == name.lower()), None)
+        if not name:
+            names = ", ".join([d['name'] for d in self.dinosaurs])
+            await ctx.send(f"**Welcome to the Year 2148 Archives!**\nTo look up a dinosaur, use `!dino <name>`. For example: `!dino T-Rex` or `!dino Triceratops`.\n\n**Available dinosaurs:** {names}")
+            return
+
+        # Clean the input to remove punctuation and extra spaces
+        clean_input = name.lower().strip()
         
+        # 1. Try exact match or fuzzy match on the whole string
+        dino = next((d for d in self.dinosaurs if d['name'].lower() in clean_input or clean_input in d['name'].lower()), None)
+        
+        # 2. If no match, check if any dinosaur name is *contained* within the sentence
         if not dino:
-            # Try fuzzy match if exact match fails
-            dino = next((d for d in self.dinosaurs if name.lower() in d['name'].lower()), None)
+            for d in self.dinosaurs:
+                if d['name'].lower() in clean_input:
+                    dino = d
+                    break
 
         if not dino:
-            await ctx.send(f"Sorry, I couldn't find a dinosaur named '{name}'.")
+            # Provide a helpful error with a list of available dinos
+            names = ", ".join([d['name'] for d in self.dinosaurs])
+            await ctx.send(f"I couldn't find a dinosaur in your message. Did you mean one of these?\n**Available:** {names}")
             return
 
         embed = discord.Embed(title=dino['name'], description=f"*{dino['size']} {dino['type']}, {dino['alignment']}*", color=discord.Color.green())
