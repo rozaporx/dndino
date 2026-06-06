@@ -49,6 +49,13 @@ class Lookup(commands.Cog):
 
         embed = discord.Embed(title=dino['name'], description=f"*{dino['size']} {dino['type']}, {dino['alignment']}*", color=discord.Color.green())
         
+        # Generate an image using Pollinations.ai
+        import urllib.parse
+        prompt = f"photorealistic dinosaur, {dino['name']}, prehistoric jungle background, high detail, 8k"
+        encoded_prompt = urllib.parse.quote(prompt)
+        image_url = f"https://pollinations.ai/p/{encoded_prompt}?width=1024&height=1024&seed={random.randint(1, 100000)}&nologo=true"
+        embed.set_image(url=image_url)
+
         embed.add_field(name="Armor Class", value=dino['ac'], inline=True)
         embed.add_field(name="Hit Points", value=f"{dino['hp']} ({dino['hp_formula']})", inline=True)
         embed.add_field(name="Speed", value=dino['speed'], inline=True)

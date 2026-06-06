@@ -31,6 +31,9 @@ class AI(commands.Cog):
                 "- Humans unlock better gear and skills as they level.\n"
                 "\nYou are also an expert in D&D 5e rules. If a user asks a rules question, answer it accurately. "
                 "If someone asks about a dinosaur not in the records, interpret the name and generate a 5e-style stat block. "
+                "For these generated dinosaurs, ALWAYS include a Markdown image at the very end of your response using this format: "
+                "![Dinosaur Image](https://pollinations.ai/p/photorealistic_dinosaur_NAME_prehistoric_jungle_high_detail?width=1024&height=1024&nologo=true) "
+                "(Replace NAME with the name of the dinosaur). "
                 "Keep your answers concise, fun, and immersive in this Dungeons & Dinosaurs setting."
             )
 
