@@ -47,7 +47,7 @@ class AI(commands.Cog):
             return self.model_id, None
         
         # Priority list of models known to be good
-        test_models = ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-2.0-flash-exp"]
+        test_models = ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-1.0-pro"]
         
         last_error = "No models available."
         for model_name in test_models:
@@ -63,19 +63,27 @@ class AI(commands.Cog):
                 last_error = str(e)
                 continue
         
-        # If priority models fail, try dynamic discovery
-        try:
-            async for model in self.client.aio.models.list():
-                clean_name = model.name.replace("models/", "")
-                if clean_name not in test_models and "gemini" in clean_name.lower():
-                    try:
-                        await self.client.aio.models.generate_content(model=clean_name, contents="test")
-                        self.model_id = clean_name
-                        return self.model_id, None
-                    except: continue
-        except: pass
-
         return None, last_error
+
+    @commands.command(name='debug_models', hidden=True)
+    @commands.is_owner()
+    async def debug_models(self, ctx):
+        """Diagnostic command to list all available models for this API key."""
+        if not self.client:
+            await ctx.send("API key not configured.")
+            return
+
+        try:
+            msg = "**Available Models for your API Key:**\n"
+            # The SDK models.list() returns an iterable
+            for model in self.client.models.list():
+                msg += f"- `{model.name}` (v: {model.version})\n"
+                if len(msg) > 1800:
+                    await ctx.send(msg)
+                    msg = ""
+            await ctx.send(msg if msg else "No models found.")
+        except Exception as e:
+            await ctx.send(f"Error listing models: `{e}`")
 
     @commands.command(name='ask', aliases=['rule', 'dm'])
     async def ask_ai(self, ctx, *, question: str):
