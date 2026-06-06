@@ -122,7 +122,10 @@ class AI(commands.Cog):
             except Exception as e:
                 error_str = str(e)
                 if "429" in error_str:
-                    await ctx.send("🔋 **Archives Recharging!** The AI is at its limit. Please wait a few minutes and try again.")
+                    if "quota" in error_str.lower():
+                        await ctx.send("🔋 **Archives Recharging!** The AI has hit its daily free quota. It will reset at midnight.")
+                    else:
+                        await ctx.send("⏳ **AI Cooling Down!** You're moving faster than the archives can process. Please wait about 30-60 seconds and try again.")
                 else:
                     await ctx.send(f"Sorry, I had a brain freeze! Error: {e}")
 
