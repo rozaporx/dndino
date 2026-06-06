@@ -1,6 +1,6373 @@
 {
   "dinosaurs": [
     {
+      "name": "Abelisaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Acheroraptor",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Acrocanthosaurus",
+      "size": "Huge",
+      "ac": 13,
+      "hp": 115,
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 12,
+        "con": 18,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee +9 to hit. Hit: 25 (3d12+6) piercing."
+        }
+      ],
+      "historical_facts": [
+        "Name means 'high-spined lizard'.",
+        "Had a ridge of high spines along its neck and back.",
+        "Was the apex predator of its time in North America."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Adasaurus",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Adeopapposaurus",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Afrovenator",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Alamosaurus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "One of the last sauropods to ever exist.",
+        "Named after the Ojo Alamo Formation in New Mexico.",
+        "Could reach weights of up to 80 tons."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Albertosaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A smaller, faster relative of the T-Rex.",
+        "Named after Alberta, Canada, where it was discovered.",
+        "Evidence suggests they may have hunted in packs."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Albinykus",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Alioramus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Allosaurus",
+      "size": "Large",
+      "ac": 13,
+      "hp": 51,
+      "speed": "60 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 17,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "2",
+      "xp": 450,
+      "traits": [
+        {
+          "name": "Pounce",
+          "description": "Charge, hit, knock prone, bonus bite."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee +6 to hit. Hit: 15 (2d10+4) piercing."
+        }
+      ],
+      "historical_facts": [
+        "Most common large predator of the Jurassic.",
+        "Had crests in front of its eyes.",
+        "Name means 'different lizard'."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Amargasaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Famous for the double row of long spines on its neck.",
+        "A relatively small sauropod from South America.",
+        "The spines may have supported a skin sail or been bare."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Ankylosaurus",
+      "size": "Huge",
+      "ac": 15,
+      "hp": 68,
+      "speed": "30 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 11,
+        "con": 15,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Tail",
+          "description": "Melee +7 to hit. Hit: 18 (4d6+4) bludgeoning. DC 14 Str or prone."
+        }
+      ],
+      "historical_facts": [
+        "Known as the 'living tank'.",
+        "Had a massive bony club at the end of its tail.",
+        "Even its eyelids were armored."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Anserimimus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Apatosaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Name means 'deceptive lizard'.",
+        "Once thought to be the same as Brontosaurus.",
+        "Had a thick, powerful neck and a long whip-tail."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Archaeopteryx",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 12,
+      "hp": 1,
+      "speed": "10 ft., fly 30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 15,
+        "con": 8,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee +4 to hit. Hit: 1 piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Often called the 'first bird'.",
+        "Had both bird-like features (feathers) and dinosaur-like features (teeth, long tail).",
+        "Lived in the Late Jurassic."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Archelon",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Argentinosaurus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 231,
+      "hp_formula": "14d20 + 84",
+      "speed": "20 ft.",
+      "stats": {
+        "str": 30,
+        "dex": 6,
+        "con": 23,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "11",
+      "xp": 7200,
+      "traits": [
+        {
+          "name": "Siege Monster",
+          "description": "Deals double damage to objects and structures."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Stomp",
+          "description": "Melee Weapon Attack: +14 to hit. Hit: 45 (6d10 + 12) bludgeoning damage. DC 18 Str save or prone."
+        }
+      ],
+      "historical_facts": [
+        "One of the largest known land animals to ever exist.",
+        "A single vertebra was over 5 feet tall.",
+        "Estimated to weigh up to 100 tons."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Atrociraptor",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Aucasaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Australovenator",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Nicknamed 'Banjo' after an Australian poet.",
+        "Built like a cheetah for high-speed pursuits.",
+        "The most complete meat-eating dinosaur from Australia."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Austroposeidon",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Austroraptor",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Bahariasaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive huge herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Balaur",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Bambiraptor",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Barosaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive huge herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Baryonyx",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 59,
+      "hp_formula": "7d10 + 21",
+      "speed": "30 ft., swim 30 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 12,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Claw",
+          "description": "Melee +6 to hit. Hit: 13 (2d8 + 4) slashing damage."
+        }
+      ],
+      "historical_facts": [
+        "Name means 'heavy claw'.",
+        "Specialized in eating fish, like a modern heron.",
+        "Had a crocodile-like snout."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Basilosaurus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Beishanlong",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Borogovia",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Brachiosaurus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 145,
+      "hp_formula": "10d20 + 40",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 26,
+        "dex": 8,
+        "con": 19,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "6",
+      "xp": 2300,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Stomp",
+          "description": "Melee +11 to hit. Hit: 34 (5d10 + 7) bludgeoning damage."
+        }
+      ],
+      "historical_facts": [
+        "Its front legs were longer than its back legs.",
+        "Had a very high neck, allowing it to reach treetops.",
+        "One of the few dinosaurs that could have eaten from 40 feet up."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Brontosaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Name means 'thunder lizard'.",
+        "Long considered the same as Apatosaurus, but now a separate genus.",
+        "Could weigh up to 30 tons."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Bruhathkayosaurus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Buitreraptor",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Byronosaurus",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Camarasaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Name means 'chambered lizard' due to hollows in its vertebrae.",
+        "Had a blunt, boxy skull and strong, spoon-shaped teeth.",
+        "One of the most common sauropods in the Morrison Formation."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Carbonemys",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Carcharodontosaurus",
+      "size": "Huge",
+      "ac": 14,
+      "hp": 140,
+      "speed": "40 ft.",
+      "stats": {
+        "str": 25,
+        "dex": 10,
+        "con": 20,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "9",
+      "xp": 5000,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee +11 to hit. Hit: 35 (5d10+8) piercing."
+        }
+      ],
+      "historical_facts": [
+        "Name means 'shark-toothed lizard'.",
+        "Had teeth up to 8 inches long.",
+        "Lived in North Africa alongside Spinosaurus."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Carnotaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 67,
+      "hp_formula": "9d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 15,
+        "con": 15,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "4",
+      "xp": 1100,
+      "traits": [
+        {
+          "name": "Charge",
+          "description": "Moves 20ft, hits with horns for extra 2d6 and knock prone."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee +6 to hit. Hit: 15 (2d10+4) piercing."
+        },
+        {
+          "name": "Horns",
+          "description": "Melee +6 to hit. Hit: 11 (2d6+4) piercing."
+        }
+      ],
+      "historical_facts": [
+        "Name means 'meat-eating bull' because of its horns.",
+        "Had incredibly short arms, even smaller than T-Rex.",
+        "Was built for high-speed sprinting in straight lines."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Ceratonykus",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Ceratosaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Known for the large horn on its snout.",
+        "Had a row of bony plates (osteoderms) along its back.",
+        "Possessed exceptionally long, blade-like teeth."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Changyuraptor",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Chenanisaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Chilantaisaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive huge herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Chilesaurus",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Chromogisaurus",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Coelophysis",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A lean, agile hunter from the Late Triassic.",
+        "One of the most common early dinosaurs.",
+        "Had hollow bones to reduce weight for speed."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Compsognathus",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [
+        {
+          "name": "Pack Tactics",
+          "description": "Advantage if ally is near."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee +5 to hit. Hit: 1 piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "For a long time, it was the smallest known dinosaur.",
+        "About the size of a modern chicken.",
+        "Lived in what is now Europe."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Corythosaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Had a hollow, helmet-like crest on its head.",
+        "Used its crest to make loud, resonating sounds.",
+        "Known from exceptionally well-preserved fossils."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Cryolophosaurus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Nicknamed 'Elvisaurus' due to its pompadour-like crest.",
+        "The first predatory dinosaur found in Antarctica.",
+        "Lived during the Early Jurassic."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Daspletosaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Deinocheirus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Name means 'terrible hand' due to its 8-foot-long arms.",
+        "Had a duck-like beak and a large hump on its back.",
+        "Was an omnivore that ate both plants and small animals."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Deinonychus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 15,
+        "dex": 15,
+        "con": 14,
+        "int": 4,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [
+        {
+          "name": "Pounce",
+          "description": "Charge, hit, knock prone, bonus bite."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "Makes three attacks: one bite and two claws."
+        }
+      ],
+      "historical_facts": [
+        "Name means 'terrible claw'.",
+        "The dinosaur that inspired the 'raptors' in Jurassic Park.",
+        "Provided the first evidence that dinosaurs were active, warm-blooded animals."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Deinosuchus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive huge herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Deltadromeus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive huge herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Dicraeosaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive huge herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Dilophosaurus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee +5 to hit. Hit: 8 (1d10 + 3) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "There is no evidence they could spit venom or had neck frills.",
+        "One of the earliest large predatory dinosaurs.",
+        "Had two distinctive crests on its head."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Dimetrodon",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Dimorphodon",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Diplodocus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "One of the longest dinosaurs, reaching up to 90 feet.",
+        "Had a whip-like tail that could possibly break the sound barrier.",
+        "Lived in North America during the Late Jurassic."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Dreadnoughtus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Dromaeosaurus",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Dromiceiomimus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Dryosaurus",
+      "size": "Small",
+      "ac": 13,
+      "hp": 9,
+      "speed": "40 ft.",
+      "stats": {
+        "str": 10,
+        "dex": 16,
+        "con": 12,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Kick",
+          "description": "Melee +5 to hit. Hit: 5 (1d4+3) bludgeoning."
+        }
+      ],
+      "historical_facts": [
+        "Name means 'oak lizard'.",
+        "Had a horny beak for cropping plants.",
+        "Relied on speed and camouflage for survival."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Edmontosaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "One of the largest duck-billed dinosaurs.",
+        "Some specimens have been found with 'mummified' skin.",
+        "Had a fleshy comb on its head, like a rooster."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Ekrixinatosaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Elasmosaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Had an incredibly long neck with 72 vertebrae.",
+        "Used its neck to ambush schools of fish.",
+        "Was first reconstructed with its head on its tail by mistake."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Eoraptor",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Epanterias",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Epidexipteryx",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Erlikosaurus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Eustreptospondylus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Falcarius",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Fukuiraptor",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium-sized predator discovered in Japan.",
+        "Had large, powerful arms with sharp claws.",
+        "An important find for understanding Asian dinosaurs."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Futalognkosaurus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Gallimimus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 18,
+      "hp_formula": "4d8",
+      "speed": "60 ft.",
+      "stats": {
+        "str": 12,
+        "dex": 18,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Kick",
+          "description": "Melee +3 to hit. Hit: 6 (1d8 + 2) bludgeoning damage."
+        }
+      ],
+      "historical_facts": [
+        "Name means 'chicken mimic'.",
+        "One of the fastest dinosaurs, estimated to run over 30 mph.",
+        "Had a toothless, bird-like beak."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Garudimimus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Gasparinisaura",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Giganotosaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 150,
+      "hp_formula": "12d12 + 72",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 26,
+        "dex": 10,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "9",
+      "xp": 5000,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +11 to hit. Hit: 35 (5d10 + 8) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "One of the few predators larger than T-Rex.",
+        "Lived in South America.",
+        "Had thin, blade-like teeth for slicing flesh."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Gorgosaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Graciliraptor",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Guaibasaurus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Halszkaraptor",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Harpymimus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Hatzegopteryx",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Haya",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Herrerasaurus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "One of the very first dinosaurs ever to evolve.",
+        "Had a flexible joint in its lower jaw to hold prey.",
+        "Discovered in the Triassic rocks of Argentina."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Hesperonychus",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Huaxiaosaurus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Hypsilophodon",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small, agile runner from the Early Cretaceous.",
+        "Had large eyes for spotting predators.",
+        "Once thought to live in trees, but it was a ground-dweller."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Ichthyosaurus",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Iguanodon",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 45,
+      "hp_formula": "6d10 + 12",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 18,
+        "dex": 12,
+        "con": 15,
+        "int": 2,
+        "wis": 10,
+        "cha": 5
+      },
+      "cr": "2",
+      "xp": 450,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Thumb Spike",
+          "description": "Melee +6 to hit. Hit: 11 (2d6 + 4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "One of the first three dinosaurs ever named.",
+        "Had a sharp spike on its thumb for defense.",
+        "Could walk on two or four legs."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Indosuchus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Inostrancevia",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Kelmayisaurus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Kronosaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A giant pliosaur with a 7-foot-long skull.",
+        "Had teeth the size of bananas.",
+        "Lived in the oceans around what is now Australia."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Kulindadromeus",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Lambeosaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Had a hollow, hatchet-shaped crest on its head.",
+        "The shape of the crest differed between males and females.",
+        "A large, social herbivore from North America."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Leptoceratops",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small, hornless relative of Triceratops.",
+        "Could likely run on its hind legs.",
+        "Lived at the very end of the Cretaceous period."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Liaoningosaurus",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Linhenykus",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Linheraptor",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Liopleurodon",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "An apex marine predator with four large flippers.",
+        "Had a powerful sense of smell to track prey underwater.",
+        "Possessed massive jaws and sharp teeth."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Livyatan",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Lourinhanosaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Magnapaulia",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Mahakala",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Majungasaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Mamenchisaurus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Had one of the longest necks of any dinosaur.",
+        "Its neck made up nearly half of its total body length.",
+        "Lived in China during the Late Jurassic."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Mapusaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive huge herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Maraapunisaurus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Megalania",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Megalodon",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Megaraptor",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Had a massive, 14-inch sickle claw on its thumb.",
+        "A fast and powerful predator from South America.",
+        "Not actually a 'raptor' like Velociraptor."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Mei Long",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Metriacanthosaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Microceratus",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Microraptor",
+      "size": "Tiny",
+      "ac": 13,
+      "hp": 2,
+      "speed": "10 ft., fly 40 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee +5 to hit. Hit: 1 piercing."
+        }
+      ],
+      "historical_facts": [
+        "Had four wings\u00e2\u20ac\u201dfeathers on both its arms and legs.",
+        "One of the smallest known dinosaurs.",
+        "Could glide and possibly fly."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Minmi",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Monolophosaurus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Had a single, elegant crest on its snout.",
+        "A predator from the Middle Jurassic of China.",
+        "The crest was likely for display, not combat."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Mononykus",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Mosasaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive marine reptile, not a dinosaur.",
+        "Closely related to modern monitor lizards and snakes.",
+        "Had a second set of teeth in the roof of its mouth."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Muttaburrasaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Had a large, bulging snout for making loud calls.",
+        "An Australian dinosaur from the Early Cretaceous.",
+        "Had specialized teeth for eating tough desert plants."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Niebla",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Nigersaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Had a wide, straight mouth with over 500 teeth.",
+        "Often called a 'Mesozoic lawnmower'.",
+        "Its skull bones were almost translucent."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Nothronychus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Notocolossus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Ornithomimus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Ouranosaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Had a large sail or hump on its back supported by spines.",
+        "Lived in the Sahara region of Africa.",
+        "Had a very wide, flat beak for grazing."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Oviraptor",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 13,
+      "hp_formula": "3d6 + 3",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 10,
+        "dex": 16,
+        "con": 12,
+        "int": 6,
+        "wis": 12,
+        "cha": 7
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Beak",
+          "description": "Melee +5 to hit. Hit: 5 (1d4 + 3) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Name means 'egg thief', though they were likely caring for their own eggs.",
+        "Had a powerful, parrot-like beak.",
+        "Were likely omnivores, eating eggs, plants, and small animals."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Oxalaia",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive huge herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Pachycephalosaurus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 32,
+      "hp_formula": "5d8 + 10",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 16,
+        "dex": 13,
+        "con": 15,
+        "int": 2,
+        "wis": 10,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [
+        {
+          "name": "Ram",
+          "description": "Moves 20ft, hits with head for extra 1d6 and knock prone."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Headbutt",
+          "description": "Melee +5 to hit. Hit: 7 (1d8 + 3) bludgeoning damage."
+        }
+      ],
+      "historical_facts": [
+        "Had a skull roof up to 10 inches thick.",
+        "The dome skull was likely used for head-butting or flank-butting.",
+        "Lived in North America during the Late Cretaceous."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Pampadromaeus",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Panphagia",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Parasaurolophus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 42,
+      "hp_formula": "5d10 + 15",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 17,
+        "dex": 12,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "2",
+      "xp": 450,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Stomp",
+          "description": "Melee +5 to hit. Hit: 10 (2d6 + 3) bludgeoning damage."
+        }
+      ],
+      "historical_facts": [
+        "Had a long, hollow tube-like crest on its head.",
+        "Used its crest to make low-frequency trumpeting sounds.",
+        "A type of 'duck-billed' dinosaur."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Parksosaurus",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Parvicursor",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Patagotitan",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Pelecanimimus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Pisanosaurus",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Plesiosaurus",
+      "size": "Large",
+      "ac": 13,
+      "hp": 68,
+      "speed": "20 ft., swim 40 ft.",
+      "stats": {
+        "str": 18,
+        "dex": 15,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "2",
+      "xp": 450,
+      "traits": [
+        {
+          "name": "Hold Breath",
+          "description": "1 hour."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee +6 to hit. Hit: 14 (3d6+4) piercing."
+        }
+      ],
+      "historical_facts": [
+        "Marine reptile with a very long neck.",
+        "Used four flippers to 'fly' through water.",
+        "Gave birth to live young."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Protoceratops",
+      "size": "Small",
+      "ac": 12,
+      "hp": 10,
+      "speed": "30 ft.",
+      "stats": {
+        "str": 12,
+        "dex": 10,
+        "con": 13,
+        "int": 2,
+        "wis": 10,
+        "cha": 5
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee +3 to hit. Hit: 4 (1d6+1) piercing."
+        }
+      ],
+      "historical_facts": [
+        "A sheep-sized ancestor of Triceratops.",
+        "Had a large frill but no horns.",
+        "Likely lived in large herds."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Psittacosaurus",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Name means 'parrot lizard' due to its hooked beak.",
+        "One of the most common and well-studied dinosaurs.",
+        "A specimen was found with long bristles on its tail."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Pteranodon",
+      "size": "Medium",
+      "ac": 13,
+      "hp": 13,
+      "speed": "10 ft., fly 60 ft.",
+      "stats": {
+        "str": 12,
+        "dex": 15,
+        "con": 10,
+        "int": 2,
+        "wis": 9,
+        "cha": 5
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [
+        {
+          "name": "Flyby",
+          "description": "No opportunity attacks."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee +3 to hit. Hit: 6 (2d4+1) piercing."
+        }
+      ],
+      "historical_facts": [
+        "Wing without teeth.",
+        "Crest acted as a counterweight.",
+        "Wingspan up to 20 feet."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Pterodactylus",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Puertasaurus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Purussaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive huge herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Qianzhousaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Quetzalcoatlus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "One of the largest flying animals ever.",
+        "Wingspan of up to 36 feet, as wide as a small plane.",
+        "Hunted small animals on the ground like a giant stork."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Rahonavis",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Rajasaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Rhamphorhynchus",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Rugops",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Saltasaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "The first sauropod found with bony armor plates.",
+        "Relatively small for a long-necked dinosaur.",
+        "Lived in South America during the Late Cretaceous."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Sarcosuchus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive huge herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Saturnalia",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Saurolophus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive huge herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Sauroniops",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Saurophaganax",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Sauroposeidon",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Saurornitholestes",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Scutellosaurus",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Scutosaurus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Segnosaurus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Shanag",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Shantungosaurus",
+      "size": "Huge",
+      "ac": 13,
+      "hp": 120,
+      "speed": "30 ft.",
+      "stats": {
+        "str": 24,
+        "dex": 8,
+        "con": 20,
+        "int": 2,
+        "wis": 10,
+        "cha": 5
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Stomp",
+          "description": "Melee +10 to hit. Hit: 28 (4d10+6) bludgeoning."
+        }
+      ],
+      "historical_facts": [
+        "The largest non-sauropod dinosaur ever found.",
+        "A massive duck-billed dinosaur from China.",
+        "Could weigh as much as an African elephant."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Shastasaurus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Shuvuuia",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Siats",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive huge herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Sinornithoides",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Sinornithosaurus",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Sinosauropteryx",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Sinraptor",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Skorpiovenator",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Spinosaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 147,
+      "hp_formula": "14d12 + 56",
+      "speed": "30 ft., swim 50 ft.",
+      "stats": {
+        "str": 24,
+        "dex": 12,
+        "con": 18,
+        "int": 2,
+        "wis": 12,
+        "cha": 7
+      },
+      "cr": "8",
+      "xp": 3900,
+      "traits": [
+        {
+          "name": "Amphibious",
+          "description": "Can breathe air and water."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Claws",
+          "description": "Melee Weapon Attack: +9 to hit. Hit: 19 (3d8 + 6) slashing damage."
+        },
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +9 to hit. Hit: 22 (3d10 + 6) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Longest known carnivorous dinosaur.",
+        "Highly adapted for a semi-aquatic lifestyle.",
+        "The giant sail may have been for display or heat regulation."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Staurikosaurus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Stegosaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 76,
+      "hp_formula": "8d12 + 24",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 20,
+        "dex": 9,
+        "con": 17,
+        "int": 2,
+        "wis": 11,
+        "cha": 5
+      },
+      "cr": "4",
+      "xp": 1100,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Tail",
+          "description": "Melee +7 to hit. Hit: 21 (3d10 + 5) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Had a brain the size of a walnut.",
+        "The tail spikes are scientifically known as 'thagomizers'.",
+        "The plates on its back were likely for display or heat regulation."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Struthiomimus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A medium dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Suchomimus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Name means 'crocodile mimic' due to its long snout.",
+        "Specialized in catching fish with its large thumb claws.",
+        "Had a small sail on its back."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Supersaurus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Tapejara",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Tarbosaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "The apex predator of Late Cretaceous Asia.",
+        "Very closely related to T-Rex but with smaller arms.",
+        "Its skull was more rigid than T-Rex's."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Therizinosaurus",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 26,
+      "hp_formula": "4d8 + 8",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 14,
+        "dex": 16,
+        "con": 14,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +4 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Possessed the longest claws of any known animal, up to 3 feet long.",
+        "Despite its terrifying look, it was a herbivore.",
+        "Lived in Mongolia during the Late Cretaceous."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Thescelosaurus",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A heavily built runner from the Late Cretaceous.",
+        "Found with a structure once thought to be a fossilized heart.",
+        "One of the last dinosaurs to exist before the extinction."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Titanoboa",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive huge herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Torvosaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 4
+    },
+    {
+      "name": "Triceratops",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 95,
+      "speed": "50 ft.",
+      "stats": {
+        "str": 22,
+        "dex": 9,
+        "con": 17,
+        "int": 2,
+        "wis": 11,
+        "cha": 5
+      },
+      "cr": "5",
+      "xp": 1800,
+      "traits": [
+        {
+          "name": "Trampling Charge",
+          "description": "Moves 20ft and hits to potentially knock prone and stomp."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Gore",
+          "description": "Melee +9 to hit. Hit: 24 (4d8+6) piercing."
+        }
+      ],
+      "historical_facts": [
+        "Name means 'three-horned face'.",
+        "Lived alongside T-Rex.",
+        "Had hundreds of teeth in batteries."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Troodon",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 4,
+      "hp_formula": "1d4 + 2",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 6,
+        "dex": 16,
+        "con": 14,
+        "int": 10,
+        "wis": 14,
+        "cha": 8
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [
+        {
+          "name": "Keen Senses",
+          "description": "Advantage on Perception."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee +5 to hit. Hit: 5 (1d4 + 3) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "Considered the most intelligent dinosaur based on brain-to-body size.",
+        "Had large, forward-facing eyes for nocturnal hunting.",
+        "Had serrated teeth like a saw."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Tsaagan",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Tupandactylus",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Turiasaurus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive gargantuan herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 6
+    },
+    {
       "name": "Tyrannosaurus Rex",
       "size": "Huge",
       "type": "beast",
@@ -17,90 +6384,185 @@
         "wis": 12,
         "cha": 9
       },
-      "skills": "Perception +4",
       "cr": "8",
       "xp": 3900,
       "traits": [],
       "actions": [
         {
-          "name": "Multiattack",
-          "description": "The tyrannosaurus makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target."
-        },
-        {
           "name": "Bite",
-          "description": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 33 (4d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the tyrannosaurus can't bite another target."
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 33 (4d12 + 7) piercing damage. Target is grappled (DC 17)."
         },
         {
           "name": "Tail",
-          "description": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage."
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 20 (3d8 + 7) bludgeoning damage."
         }
       ],
       "historical_facts": [
-        "Lived during the late Cretaceous Period, approximately 68 to 66 million years ago.",
-        "Had one of the strongest bite forces of any terrestrial animal, estimated at 8,000 to 12,800 pounds per square inch.",
-        "Despite their tiny arms, each arm could lift approximately 450 pounds.",
-        "Had excellent binocular vision, possibly better than modern hawks.",
-        "New evidence suggests they may have had 'lips' covering their teeth when their mouths were closed."
+        "Strongest bite force of any land animal.",
+        "Excellent binocular vision.",
+        "Lived in the Late Cretaceous."
       ],
       "tier": 6
     },
     {
-      "name": "Triceratops",
-      "size": "Huge",
-      "type": "beast",
-      "alignment": "unaligned",
-      "ac": 13,
-      "hp": 95,
-      "hp_formula": "10d12 + 30",
-      "speed": "50 ft.",
-      "stats": {
-        "str": 22,
-        "dex": 9,
-        "con": 17,
-        "int": 2,
-        "wis": 11,
-        "cha": 5
-      },
-      "cr": "5",
-      "xp": 1800,
-      "traits": [
-        {
-          "name": "Trampling Charge",
-          "description": "If the triceratops moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the triceratops can make one stomp attack against it as a bonus action."
-        }
-      ],
-      "actions": [
-        {
-          "name": "Gore",
-          "description": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (4d8 + 6) piercing damage."
-        },
-        {
-          "name": "Stomp",
-          "description": "Melee Weapon Attack: +9 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10 + 6) bludgeoning damage."
-        }
-      ],
-      "historical_facts": [
-        "The name Triceratops literally means 'three-horned face'.",
-        "The large bony frill may have served as protection, display for mating, or even to help regulate body temperature.",
-        "Had hundreds of teeth arranged in batteries, which were constantly being replaced as they wore down.",
-        "Lived in the same time and place as T-Rex and was likely its primary prey—and primary rival.",
-        "Recent studies suggest their horns were used for combat with other Triceratops, not just predators."
-      ],
-      "tier": 5
-    },
-    {
-      "name": "Ankylosaurus",
+      "name": "Tyrannotitan",
       "size": "Huge",
       "type": "beast",
       "alignment": "unaligned",
       "ac": 15,
-      "hp": 68,
-      "hp_formula": "8d12 + 16",
+      "hp": 105,
+      "hp_formula": "10d12 + 40",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 23,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 11,
+        "cha": 7
+      },
+      "cr": "7",
+      "xp": 2900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A massive huge herbivore.",
+        "Lived during the golden age of dinosaurs.",
+        "Fossils have been found in multiple continents."
+      ],
+      "tier": 5
+    },
+    {
+      "name": "Unenlagia",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
+      "speed": "40 ft.",
+      "stats": {
+        "str": 8,
+        "dex": 16,
+        "con": 11,
+        "int": 2,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +1 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A small dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Utahraptor",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 52,
+      "hp_formula": "7d10 + 14",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 18,
+        "dex": 16,
+        "con": 15,
+        "int": 3,
+        "wis": 12,
+        "cha": 7
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [
+        {
+          "name": "Pack Tactics",
+          "description": "Advantage if ally is near."
+        },
+        {
+          "name": "Pounce",
+          "description": "Move 20ft, hit, knock prone, bonus bite."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Claw",
+          "description": "Melee +6 to hit. Hit: 13 (2d8+4) slashing."
+        }
+      ],
+      "historical_facts": [
+        "The largest 'raptor' (dromaeosaurid) ever discovered.",
+        "Had a 9-inch long killing claw on its second toe.",
+        "Was much bulkier than portrayed in movies."
+      ],
+      "tier": 3
+    },
+    {
+      "name": "Velociraptor",
+      "size": "Small",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 7,
+      "hp_formula": "2d6",
       "speed": "30 ft.",
       "stats": {
+        "str": 6,
+        "dex": 17,
+        "con": 11,
+        "int": 4,
+        "wis": 12,
+        "cha": 6
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [
+        {
+          "name": "Pack Tactics",
+          "description": "Advantage on attacks if an ally is within 5ft."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "Makes one bite and one claw attack."
+        }
+      ],
+      "historical_facts": [
+        "Real velociraptors were about the size of a turkey.",
+        "They were covered in feathers.",
+        "Used their sickle-shaped claw to puncture vital organs."
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Yangchuanosaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
         "str": 19,
-        "dex": 11,
-        "con": 15,
+        "dex": 13,
+        "con": 16,
         "int": 2,
         "wis": 12,
         "cha": 5
@@ -110,145 +6572,148 @@
       "traits": [],
       "actions": [
         {
-          "name": "Tail",
-          "description": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone."
-        }
-      ],
-      "historical_facts": [
-        "Often called a 'living tank' due to its heavy armor plating (osteoderms).",
-        "The tail club was made of two large bony knobs and was strong enough to break a T-Rex's leg.",
-        "Even its eyelids may have been protected by small plates of bone.",
-        "It was one of the last non-avian dinosaurs existing before the K-Pg extinction event.",
-        "The armor was actually embedded in the skin, similar to a crocodile's scales but much thicker."
-      ],
-      "tier": 5
-    },
-    {
-      "name": "Allosaurus",
-      "size": "Large",
-      "type": "beast",
-      "alignment": "unaligned",
-      "ac": 13,
-      "hp": 51,
-      "hp_formula": "6d10 + 18",
-      "speed": "60 ft.",
-      "stats": {
-        "str": 19,
-        "dex": 13,
-        "con": 17,
-        "int": 2,
-        "wis": 12,
-        "cha": 5
-      },
-      "skills": "Perception +5",
-      "cr": "2",
-      "xp": 450,
-      "traits": [
-        {
-          "name": "Pounce",
-          "description": "If the allosaurus moves at least 30 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the allosaurus can make one bite attack against it as a bonus action."
-        }
-      ],
-      "actions": [
-        {
           "name": "Bite",
-          "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage."
-        },
-        {
-          "name": "Claw",
-          "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage."
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
         }
       ],
       "historical_facts": [
-        "Lived during the late Jurassic Period, about 155 to 145 million years ago.",
-        "The name Allosaurus means 'different lizard', referring to its unique concave vertebrae.",
-        "May have used its upper jaw like a hatchet to strike prey, relying on speed and sharp teeth rather than pure crushing force.",
-        "Was the most common large predator in what is now North America during its time.",
-        "Evidence from 'Big Al' fossils shows these dinosaurs lived violent lives, often sustaining multiple broken bones."
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
       ],
       "tier": 4
     },
     {
-      "name": "Plesiosaurus",
-      "size": "Large",
+      "name": "Yi Qi",
+      "size": "Tiny",
       "type": "beast",
       "alignment": "unaligned",
       "ac": 13,
-      "hp": 68,
-      "hp_formula": "8d10 + 24",
-      "speed": "20 ft., swim 40 ft.",
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
       "stats": {
-        "str": 18,
-        "dex": 15,
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Yutyrannus",
+      "size": "Gargantuan",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 16,
+      "hp": 200,
+      "hp_formula": "12d20 + 72",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 28,
+        "dex": 8,
+        "con": 22,
+        "int": 2,
+        "wis": 10,
+        "cha": 7
+      },
+      "cr": "10",
+      "xp": 5900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +13 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "The largest dinosaur found with direct evidence of feathers.",
+        "Name means 'feathered tyrant'.",
+        "Lived in a cooler climate in what is now China."
+      ],
+      "tier": 6
+    },
+    {
+      "name": "Zanabazar",
+      "size": "Tiny",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 2,
+      "hp_formula": "1d4",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 2,
+        "dex": 16,
+        "con": 10,
+        "int": 2,
+        "wis": 10,
+        "cha": 4
+      },
+      "cr": "0",
+      "xp": 10,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +-2 to hit. Hit: 10 (2d6+4) piercing damage."
+        }
+      ],
+      "historical_facts": [
+        "A tiny, agile dinosaur.",
+        "Likely ate insects and small lizards.",
+        "Used its small size to hide from larger predators."
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Zhuchengtyrannus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 14,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
         "con": 16,
         "int": 2,
         "wis": 12,
         "cha": 5
       },
-      "skills": "Perception +3, Stealth +4",
-      "cr": "2",
-      "xp": 450,
-      "traits": [
-        {
-          "name": "Hold Breath",
-          "description": "The plesiosaurus can hold its breath for 1 hour."
-        }
-      ],
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
       "actions": [
         {
           "name": "Bite",
-          "description": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) piercing damage."
+          "description": "Melee Weapon Attack: +8 to hit. Hit: 10 (2d6+4) piercing damage."
         }
       ],
       "historical_facts": [
-        "Technically a marine reptile, not a dinosaur.",
-        "Had a very long, flexible neck with up to 40 vertebrae, allowing it to strike fish with great precision.",
-        "Unlike most reptiles, plesiosaurs likely gave birth to live young in the water rather than laying eggs.",
-        "Used its four large flippers to 'fly' through the water, much like modern sea turtles.",
-        "The first complete Plesiosaurus skeleton was discovered by Mary Anning in 1823."
+        "A large dinosaur from the Mesozoic Era.",
+        "Well-adapted to its specific environment.",
+        "Contributed to the diverse ecosystem of its time."
       ],
       "tier": 4
-    },
-    {
-      "name": "Pteranodon",
-      "size": "Medium",
-      "type": "beast",
-      "alignment": "unaligned",
-      "ac": 13,
-      "hp": 13,
-      "hp_formula": "3d8",
-      "speed": "10 ft., fly 60 ft.",
-      "stats": {
-        "str": 12,
-        "dex": 15,
-        "con": 10,
-        "int": 2,
-        "wis": 9,
-        "cha": 5
-      },
-      "skills": "Perception +1",
-      "cr": "1/4",
-      "xp": 50,
-      "traits": [
-        {
-          "name": "Flyby",
-          "description": "The pteranodon doesn't provoke opportunity attacks when it flies out of an enemy's reach."
-        }
-      ],
-      "actions": [
-        {
-          "name": "Bite",
-          "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) piercing damage."
-        }
-      ],
-      "historical_facts": [
-        "A pterosaur, not a dinosaur. Pterosaurs were flying reptiles.",
-        "The name Pteranodon means 'wing without teeth'.",
-        "The large crest on the back of its head acted as a counterweight to its long beak and may have helped with steering.",
-        "Had a wingspan of up to 20 feet, yet its body was very light to allow for efficient flight.",
-        "Likely spent most of its time flying over the ocean to hunt for fish, similar to a modern albatross."
-      ],
-      "tier": 3
     }
   ]
 }
