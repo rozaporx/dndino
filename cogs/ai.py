@@ -57,8 +57,12 @@ class AI(commands.Cog):
                 self.model_id = model_name
                 return self.model_id, None
             except Exception as e:
-                last_error = str(e)
-                print(f"Failed to connect to {model_name}: {last_error}")
+                error_str = str(e)
+                if "429" in error_str:
+                    print(f"Model {model_name} is currently rate limited.")
+                else:
+                    print(f"Failed to connect to {model_name}: {error_str}")
+                last_error = error_str
                 continue
         
         return None, last_error
@@ -74,7 +78,10 @@ class AI(commands.Cog):
             try:
                 model, error_msg = await self.get_working_model()
                 if not model:
-                    await ctx.send(f"❌ **AI Error:** Could not find a supported model.\n**Reason:** `{error_msg}`\n\n*Check your API key and permissions at Google AI Studio.*")
+                    if "429" in str(error_msg):
+                        await ctx.send("🔋 **Archives Recharging!** The AI has reached its free tier limit for today. Please try again in a little while, or use `!dino` for pre-recorded species.")
+                    else:
+                        await ctx.send(f"❌ **AI Error:** Could not find a supported model.\n**Reason:** `{error_msg}`")
                     return
 
                 # Using the new library's generation method
@@ -90,7 +97,11 @@ class AI(commands.Cog):
                 
                 await ctx.reply(answer)
             except Exception as e:
-                await ctx.send(f"Sorry, I had a brain freeze! Error: {e}")
+                error_str = str(e)
+                if "429" in error_str:
+                    await ctx.send("🔋 **Archives Recharging!** The AI is at its limit. Please wait a few minutes and try again.")
+                else:
+                    await ctx.send(f"Sorry, I had a brain freeze! Error: {e}")
 
     @commands.Cog.listener()
     async def on_message(self, message):
