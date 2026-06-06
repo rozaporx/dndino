@@ -46,8 +46,14 @@ class AI(commands.Cog):
         if self.model_id:
             return self.model_id, None
         
-        # Priority list of models known to be good
-        test_models = ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-1.0-pro"]
+        # Priority list of models confirmed available in your debug output
+        test_models = [
+            "gemini-3.5-flash",
+            "gemini-2.5-pro",
+            "gemini-2.5-flash",
+            "gemini-2.0-flash",
+            "gemini-3.1-flash-lite"
+        ]
         
         last_error = "No models available."
         for model_name in test_models:
