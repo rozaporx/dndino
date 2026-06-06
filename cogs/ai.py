@@ -35,9 +35,11 @@ class AI(commands.Cog):
                     model=model_name,
                     contents="test"
                 )
+                print(f"Successfully connected to AI model: {model_name}")
                 self.model_id = model_name
                 return self.model_id
-            except:
+            except Exception as e:
+                print(f"Failed to connect to {model_name}: {e}")
                 continue
         
         return None
