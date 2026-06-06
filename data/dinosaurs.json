@@ -1,0 +1,206 @@
+{
+  "dinosaurs": [
+    {
+      "name": "Tyrannosaurus Rex",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 136,
+      "hp_formula": "13d12 + 52",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 25,
+        "dex": 10,
+        "con": 19,
+        "int": 2,
+        "wis": 12,
+        "cha": 9
+      },
+      "skills": "Perception +4",
+      "cr": "8",
+      "xp": 3900,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The tyrannosaurus makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target."
+        },
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 33 (4d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the tyrannosaurus can't bite another target."
+        },
+        {
+          "name": "Tail",
+          "description": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage."
+        }
+      ]
+    },
+    {
+      "name": "Triceratops",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 95,
+      "hp_formula": "10d12 + 30",
+      "speed": "50 ft.",
+      "stats": {
+        "str": 22,
+        "dex": 9,
+        "con": 17,
+        "int": 2,
+        "wis": 11,
+        "cha": 5
+      },
+      "cr": "5",
+      "xp": 1800,
+      "traits": [
+        {
+          "name": "Trampling Charge",
+          "description": "If the triceratops moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the triceratops can make one stomp attack against it as a bonus action."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Gore",
+          "description": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (4d8 + 6) piercing damage."
+        },
+        {
+          "name": "Stomp",
+          "description": "Melee Weapon Attack: +9 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10 + 6) bludgeoning damage."
+        }
+      ]
+    },
+    {
+      "name": "Ankylosaurus",
+      "size": "Huge",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 15,
+      "hp": 68,
+      "hp_formula": "8d12 + 16",
+      "speed": "30 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 11,
+        "con": 15,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "cr": "3",
+      "xp": 700,
+      "traits": [],
+      "actions": [
+        {
+          "name": "Tail",
+          "description": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone."
+        }
+      ]
+    },
+    {
+      "name": "Allosaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 51,
+      "hp_formula": "6d10 + 18",
+      "speed": "60 ft.",
+      "stats": {
+        "str": 19,
+        "dex": 13,
+        "con": 17,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "skills": "Perception +5",
+      "cr": "2",
+      "xp": 450,
+      "traits": [
+        {
+          "name": "Pounce",
+          "description": "If the allosaurus moves at least 30 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the allosaurus can make one bite attack against it as a bonus action."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage."
+        },
+        {
+          "name": "Claw",
+          "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage."
+        }
+      ]
+    },
+    {
+      "name": "Plesiosaurus",
+      "size": "Large",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 68,
+      "hp_formula": "8d10 + 24",
+      "speed": "20 ft., swim 40 ft.",
+      "stats": {
+        "str": 18,
+        "dex": 15,
+        "con": 16,
+        "int": 2,
+        "wis": 12,
+        "cha": 5
+      },
+      "skills": "Perception +3, Stealth +4",
+      "cr": "2",
+      "xp": 450,
+      "traits": [
+        {
+          "name": "Hold Breath",
+          "description": "The plesiosaurus can hold its breath for 1 hour."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) piercing damage."
+        }
+      ]
+    },
+    {
+      "name": "Pteranodon",
+      "size": "Medium",
+      "type": "beast",
+      "alignment": "unaligned",
+      "ac": 13,
+      "hp": 13,
+      "hp_formula": "3d8",
+      "speed": "10 ft., fly 60 ft.",
+      "stats": {
+        "str": 12,
+        "dex": 15,
+        "con": 10,
+        "int": 2,
+        "wis": 9,
+        "cha": 5
+      },
+      "skills": "Perception +1",
+      "cr": "1/4",
+      "xp": 50,
+      "traits": [
+        {
+          "name": "Flyby",
+          "description": "The pteranodon doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) piercing damage."
+        }
+      ]
+    }
+  ]
+}
