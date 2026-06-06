@@ -90,6 +90,32 @@ class AI(commands.Cog):
         except Exception as e:
             await ctx.send(f"Error listing models: `{e}`")
 
+    @commands.command(name='debug_ai', hidden=True)
+    async def debug_ai(self, ctx):
+        """Deep diagnostic to see why models are failing."""
+        if not self.client:
+            await ctx.send("API key not configured.")
+            return
+
+        models_to_test = [
+            "gemini-1.5-flash",
+            "gemini-3.5-flash",
+            "gemini-2.5-pro",
+            "gemini-2.5-flash",
+            "gemini-1.5-pro"
+        ]
+        
+        results = "**AI Failover Diagnostic:**\n"
+        for model in models_to_test:
+            try:
+                await self.client.aio.models.generate_content(model=model, contents="test")
+                results += f"✅ `{model}`: **WORKING**\n"
+            except Exception as e:
+                error_snippet = str(e)[:150]
+                results += f"❌ `{model}`: `{error_snippet}`\n"
+        
+        await ctx.send(results)
+
     @commands.command(name='ask', aliases=['rule', 'dm'])
     async def ask_ai(self, ctx, *, question: str):
         """Asks the AI a question, with automatic fallback if quotas are hit."""
