@@ -9,11 +9,11 @@ class AI(commands.Cog):
         # Configure the new Gemini client
         api_key = os.getenv("GEMINI_API_KEY")
         if api_key:
-            self.client = genai.Client(api_key=api_key)
-            # We will try to find a working model from this list
-            self.available_models = ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-1.0-pro"]
-            self.model_id = None # Will be determined on first use
-            # This is the "Persona" for your bot
+            # We use the newest client library settings
+            self.client = genai.Client(api_key=api_key, http_options={'api_version': 'v1'})
+            # We will try both short names and full paths
+            self.available_models = ["gemini-1.5-flash", "models/gemini-1.5-flash", "gemini-1.5-pro", "gemini-1.0-pro"]
+            self.model_id = None 
             self.system_prompt = (
                 "You are a helpful and knowledgeable D&D 5e Dinosaur Expert. "
                 "You know everything about prehistoric creatures and how they fit into a fantasy RPG. "
