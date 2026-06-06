@@ -8,11 +8,9 @@ class AI(commands.Cog):
         self.bot = bot
         self.model_id = None
         self.available_models = [
+            "gemini-1.5-pro",
             "gemini-2.0-flash", 
-            "gemini-flash-latest", 
-            "gemini-1.5-flash", 
-            "gemini-pro-latest",
-            "gemini-1.5-pro"
+            "gemini-1.5-flash"
         ]
         # Configure the new Gemini client
         api_key = os.getenv("GEMINI_API_KEY")
