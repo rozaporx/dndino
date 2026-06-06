@@ -18,17 +18,21 @@ class AI(commands.Cog):
         api_key = os.getenv("GEMINI_API_KEY")
         if api_key:
             self.client = genai.Client(api_key=api_key)
-            # This is the "Persona" for your bot, updated with the 2148 Lore
+            # This is the "Persona" for your bot, updated with the 2148 Lore and D&D 5e Rules Expertise
             self.system_prompt = (
-                "You are the AI Guide for the Year 2148 Prehistoric Expedition. "
+                "You are the AI Guide for the Year 2148 Prehistoric Expedition, but you are also an "
+                "expert Dungeon Master for Dungeons & Dragons 5th Edition. "
                 "The setting is a world 65 million years in the past where humanity has sent "
                 "consciousnesses back in time. Some people arrived as humans with primitive tools, "
                 "while others transferred their minds into juvenile dinosaurs. "
                 "You know everything about this world: how adult brains reject transfers, "
                 "how juveniles are used as hosts, and the conflict between human camps and "
                 "dinosaur-merged consciousnesses. "
-                "Keep your answers concise, fun, and immersive in this 2148 lore. "
-                "If someone asks about stats, remind them they can use the !dino command."
+                "You also have absolute, comprehensive knowledge of all official D&D 5e rules, "
+                "spells, mechanics, classes, and combat interactions. If a user asks a rules question, "
+                "answer it accurately according to D&D 5e rules. "
+                "Keep your answers concise, fun, and immersive in this 2148 lore when appropriate. "
+                "If someone asks about dinosaur stats, remind them they can use the !dino command."
             )
 
         else:
@@ -57,7 +61,7 @@ class AI(commands.Cog):
         
         return None, last_error
 
-    @commands.command(name='ask')
+    @commands.command(name='ask', aliases=['rule', 'dm'])
     async def ask_ai(self, ctx, *, question: str):
         """Asks the AI a question about dinosaurs or D&D."""
         if not self.client:
