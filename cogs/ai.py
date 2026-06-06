@@ -26,8 +26,9 @@ class AI(commands.Cog):
     async def get_working_model(self):
         """Finds the first working model from the available list."""
         if self.model_id:
-            return self.model_id
+            return self.model_id, None
         
+        last_error = "Unknown error"
         for model_name in self.available_models:
             try:
                 # Test the model with a tiny prompt
@@ -37,12 +38,13 @@ class AI(commands.Cog):
                 )
                 print(f"Successfully connected to AI model: {model_name}")
                 self.model_id = model_name
-                return self.model_id
+                return self.model_id, None
             except Exception as e:
-                print(f"Failed to connect to {model_name}: {e}")
+                last_error = str(e)
+                print(f"Failed to connect to {model_name}: {last_error}")
                 continue
         
-        return None
+        return None, last_error
 
     @commands.command(name='ask')
     async def ask_ai(self, ctx, *, question: str):
@@ -53,9 +55,9 @@ class AI(commands.Cog):
 
         async with ctx.typing():
             try:
-                model = await self.get_working_model()
+                model, error_msg = await self.get_working_model()
                 if not model:
-                    await ctx.send("Could not find a supported AI model. Check your API key permissions.")
+                    await ctx.send(f"❌ **AI Error:** Could not find a supported model.\n**Reason:** `{error_msg}`\n\n*Check your API key and permissions at Google AI Studio.*")
                     return
 
                 # Using the new library's generation method
