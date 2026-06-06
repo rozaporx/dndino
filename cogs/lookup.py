@@ -1,6 +1,8 @@
 import discord
 import json
 import os
+import random
+import urllib.parse
 from discord.ext import commands
 
 class Lookup(commands.Cog):
