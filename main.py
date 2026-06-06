@@ -31,6 +31,13 @@ async def on_ready():
             except Exception as e:
                 print(f'Failed to load extension {filename}: {e}')
 
+@bot.event
+async def on_command_error(ctx, error):
+    if isinstance(error, commands.CommandNotFound):
+        return
+    await ctx.send(f"⚠️ **System Error:** `{error}`")
+    logging.error(f"Command Error: {error}")
+
 @bot.command()
 async def ping(ctx):
     await ctx.send(f'Pong! {round(bot.latency * 1000)}ms')

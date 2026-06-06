@@ -41,12 +41,12 @@ class Lookup(commands.Cog):
             ai_cog = self.bot.get_cog('AI')
             if ai_cog:
                 prompt = f"Interpret this potential prehistoric creature name: '{name}'. Generate a D&D 5e stat block summary (AC, HP, CR, and one unique action) and a brief description of what this creature looks like in the Year 2148 expedition."
+                # We call the underlying method directly to avoid command wrapper issues
                 await ai_cog.ask_ai(ctx, question=prompt)
                 return
             
             # Fallback if AI is offline
-            names = ", ".join([d['name'] for d in self.dinosaurs])
-            await ctx.send(f"I couldn't find a dinosaur in your message. Did you mean one of these?\n**Available:** {names}")
+            await ctx.send(f"I couldn't find a dinosaur named '{name}' in the archives, and the AI system is currently offline.")
             return
 
         embed = discord.Embed(title=dino['name'], description=f"*{dino['size']} {dino['type']}, {dino['alignment']}*", color=discord.Color.green())
