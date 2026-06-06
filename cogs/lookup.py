@@ -35,7 +35,14 @@ class Lookup(commands.Cog):
                     break
 
         if not dino:
-            # Provide a helpful error with a list of available dinos
+            # If not found in database, ask the AI to generate/interpret it
+            ai_cog = self.bot.get_cog('AI')
+            if ai_cog:
+                prompt = f"Interpret this potential prehistoric creature name: '{name}'. Generate a D&D 5e stat block summary (AC, HP, CR, and one unique action) and a brief description of what this creature looks like in the Year 2148 expedition."
+                await ai_cog.ask_ai(ctx, question=prompt)
+                return
+            
+            # Fallback if AI is offline
             names = ", ".join([d['name'] for d in self.dinosaurs])
             await ctx.send(f"I couldn't find a dinosaur in your message. Did you mean one of these?\n**Available:** {names}")
             return
