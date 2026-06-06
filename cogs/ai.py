@@ -10,7 +10,9 @@ class AI(commands.Cog):
         api_key = os.getenv("GEMINI_API_KEY")
         if api_key:
             self.client = genai.Client(api_key=api_key)
-            self.model_id = "gemini-1.5-flash"
+            # We will try to find a working model from this list
+            self.available_models = ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-1.0-pro"]
+            self.model_id = None # Will be determined on first use
             # This is the "Persona" for your bot
             self.system_prompt = (
                 "You are a helpful and knowledgeable D&D 5e Dinosaur Expert. "
@@ -21,6 +23,25 @@ class AI(commands.Cog):
         else:
             self.client = None
 
+    async def get_working_model(self):
+        """Finds the first working model from the available list."""
+        if self.model_id:
+            return self.model_id
+        
+        for model_name in self.available_models:
+            try:
+                # Test the model with a tiny prompt
+                self.client.models.generate_content(
+                    model=model_name,
+                    contents="test"
+                )
+                self.model_id = model_name
+                return self.model_id
+            except:
+                continue
+        
+        return None
+
     @commands.command(name='ask')
     async def ask_ai(self, ctx, *, question: str):
         """Asks the AI a question about dinosaurs or D&D."""
@@ -30,9 +51,14 @@ class AI(commands.Cog):
 
         async with ctx.typing():
             try:
+                model = await self.get_working_model()
+                if not model:
+                    await ctx.send("Could not find a supported AI model. Check your API key permissions.")
+                    return
+
                 # Using the new library's generation method
                 response = self.client.models.generate_content(
-                    model=self.model_id,
+                    model=model,
                     config={"system_instruction": self.system_prompt},
                     contents=question
                 )
